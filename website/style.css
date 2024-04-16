@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #466368;
+    background: linear-gradient(#619489, #293f50);
+    height: 100vh;
+    margin: 0;
+}
+
+.miniplayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 6px;
+    color: white;
+    width: 600px;
+    height: 200px;
+}
+
+.book-name {
+    margin-bottom: 10px; /* Add some spacing between the text and audio controls */
+    text-align: left; /* Center-align the text */
+    font-family: Arial;
+}
+
+.book-author {
+    color: gray;
+    display: inline;
+}
+
+.miniplayer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniplayer-content-cyan {
+    /* background-color: cyan; */
+    border-radius: 6px; /* Optionally, add border-radius to match the container */
+    padding: 10px; /* Optionally, add padding for better appearance */
+}
+
+.miniplayer-image {
+    margin-right: 20px; /* Add some spacing between the cyan container and the image */
+}
